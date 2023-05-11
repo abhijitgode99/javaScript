@@ -24,8 +24,7 @@ console.log("----------------------------");
 
 var totalCount="Hundread and seven";
 console.log("value:",totalCount);
-console.log("type of isWorking :",typeof totalCount);
+console.log("type of totalCount :",typeof totalCount);
 var totalCount=107;
 console.log("value:",totalCount);
-console.log("type of isWorking :",typeof totalCount);
-
+console.log("type of totalCount :",typeof totalCount);
