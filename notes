@@ -2,3 +2,12 @@ Primitive Data Type : primitive can store only one value.
 non Primitive Data Type : Non primitive can store more the one value.
 
 Everything is clear sir, Thank you 
+
+
+exclusive : will left the upper index;
+            mySting.slice(0,5)
+            It start from 0 and end at 4
+
+Depicated : it's indicates that this method is got old.
+
+backtick= ```
