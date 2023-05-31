@@ -1,4 +1,4 @@
-console.log("=============== 1 ================");
+console.log("=============== Step : 1 ================");
 
 class Vehicle{
     constructor(company,model,color,year,milage)
@@ -25,9 +25,9 @@ for (const element of array) {
     element.showDetails(); 
 }
 
-console.log("=============== 2 ================");
+console.log("=============== Step:2,3 ================");
 
-class Vehicle{
+class College{
     constructor(Name,city,Univecity,noOfCourses)
     {
         this.Name=Name;
@@ -35,12 +35,49 @@ class Vehicle{
         this.Univecity=Univecity;
         this.noOfCourses=noOfCourses;
     }
-    showDetails()
-    {
-        console.log(`Name: ${this.Name}, city: ${this.city}, Univecity: ${this.Univecity}, No. Of Courses: ${this.noOfCourses}`);
+}
+const hvpm=new College("DCPE","Amravati","SGBAU",15);
+const shivaji=new College("Shivaji","Nagpur","RTMNU",20);
+const mit=new College("MIT","pune","SBFU",45);
+const pote=new College("Pote","Amravati","SGBAU",40);
+
+traverseObject=function (obj) {
+    for (const key in obj) {
+        if (obj.hasOwnProperty.call(obj, key)) {
+            const element = obj[key];
+            console.log(`${key}: ${element}`);
+        }
     }
 }
-const hvpm=new Vehicle("DCPE","Amravati","SGBAU",15);
-const shivaji=new Vehicle("Shivaji","Nagpur","RTMNU",20);
-const mit=new Vehicle("MIT","pune","SBFU",45);
-const pote=new Vehicle("Pote","Amravati","SGBAU",40);
+traverseObject(hvpm);
+console.log(`------------------`);
+traverseObject(shivaji);
+console.log(`------------------`);
+traverseObject(mit);
+console.log(`------------------`);
+traverseObject(pote);
+
+console.log("=============== Step:4 ================");
+
+let num=11;
+let count=0;
+if(num==1)
+{
+    console.log(`${num} is Not Prime`);
+}
+else
+{
+    for (let index = 2; index <= num; index++)
+    {
+        if(num%index==0)
+        {
+            count=count+1;
+        }  
+    }
+    if(count<=2){
+        console.log(`${num} is Prime Number`);
+    }
+    else{
+        console.log(`${num} is Not Prime Number`);
+    }
+}
