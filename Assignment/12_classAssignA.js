@@ -67,14 +67,14 @@ if(num==1)
 }
 else
 {
-    for (let index = 2; index <= num; index++)
+    for (let index = 2; index < num; index++)
     {
         if(num%index==0)
         {
             count=count+1;
         }  
     }
-    if(count<=2){
+    if(count<=1){
         console.log(`${num} is Prime Number`);
     }
     else{
