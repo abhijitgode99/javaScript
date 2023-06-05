@@ -1,0 +1,16 @@
+const str="How are you mate";   
+let newChar="";
+const arrayWord=str.split(" ");
+for (const element of arrayWord) {
+    for (let index = 0; index < element.length; index++) {
+        let char = ""
+        if(index==0 || index == element.length-1){
+            char= element[index].toUpperCase();
+        }else{
+            char=element[index]
+        }
+        newChar=newChar+char;
+    }
+    newChar = newChar+ " ";
+}
+console.log(newChar);
