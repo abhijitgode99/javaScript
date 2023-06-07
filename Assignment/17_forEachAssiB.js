@@ -58,3 +58,10 @@ array_employess.forEach(element => {
         console.log(`Emp Id: ${element.emp_id}, Emp Name: ${element.emp_name}, Emp Dept: ${element.emp_dept} ,Emp Company: ${element.emp_company}, Emp Salary :  ${element.emp_salary}`);
     }
 });
+
+
+arEmployeeray.forEach(element => {
+    if (element) {
+        
+    }
+});
