@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise time!</title>
+    </head>
+    <body>
+        <main>
+            <div id="overview">
+                <h1 id="head">HTML & JavaSctipt are crucial techologies </h1>
+                <p>The web would not work</p>
+            </div>
+            <div id="advantages">
+                <ul>
+                    <li class="adv">Flexible</li>
+                    <li class="adv">Available</li>
+                    <li class="adv">Magical</li>
+                </ul>
+            </div>
+        </main>
+        <script>
+            const elementhead = document.querySelector('#head');
+            console.log(elementhead.innerHTML);
+
+            console.log(`======== document.querySelectorAll(".adv")`);
+            const secondAdvatage = document.querySelectorAll(".adv")
+            secondAdvatage.forEach( (element)=>{
+            console.log(element.innerHTML);
+            } );
+
+            const advDiv = document.querySelector('#advantages');
+            console.log(advDiv.innerHTML);
+
+        </script>
+    </body>
+</html>
