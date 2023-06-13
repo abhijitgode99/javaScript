@@ -11,3 +11,10 @@ setTimeout( function(){
 setTimeout( ()=>{
     console.log(`Inside arrow function...`);
 }, 3000);
+
+
+setTimeout( function(){
+});
+
+
+const per=[...person]

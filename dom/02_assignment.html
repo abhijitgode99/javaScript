@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="head">My Profile Details</h1>
+    <h2 id="personal">Technology Stack</h2>
+    <ul class="parentNode">
+        <li><strong>HTML and CSS</strong></li>
+        <li id="li2"><strong>Agile and JIRA</strong></li>
+        <li><strong>Angular or React</strong></li>
+        <li><strong>Oracle Database</strong></li>
+    </ul>
+    <h1>MY Hobbies</h1>
+    <a href="index.html" target="_blank"><strong>Profile</strong></a>
+    <h3>Project Description</h3>
+</body>
+<script>
+const elementPer = document.querySelector('#personal');
+elementPer.style.color='red';
+elementPer.style.fontFamily = 'sans-serif';
+
+const head= document.querySelector("#head");
+head.style.color='orange';
+
+const parentNode=document.querySelector('.parentNode')
+const childNode=document.querySelector('#li2');
+parentNode.removeChild(childNode);
+
+</script>
+</html>

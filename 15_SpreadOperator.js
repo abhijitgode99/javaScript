@@ -48,3 +48,4 @@ console.log(element1, element2, num1, num2);
 //     }
 // }
 // console.log(arrayNum);
+const per=person;
