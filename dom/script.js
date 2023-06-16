@@ -72,3 +72,7 @@ const head= document.querySelector("#personal");
 head.style.color='orange';
 
 const removeEle=document.querySelector("");
+
+const elementTimePass = document.createElement('p');
+
+elementTimePass.appendChild(textNodeTimePass);
