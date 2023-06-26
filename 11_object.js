@@ -1,25 +1,15 @@
 let person = {
   height: "6feet",
-
   name: "Bill gates",
-
   city: "Pune",
-
   age: 54,
-
   isMarried: true,
-
   address: {
     street: "Wakad Road",
-
     landmark: "Near Datta Mandir",
-
     city: "Pune",
-
     pin: 431220, // 556677
-
     state: "MH",
-
     country: "India",
   },
 
@@ -35,11 +25,9 @@ let person = {
 
   getDetails: function () {
     let details = `Name: ${this.name}, Age: ${this.age}, Is Married: ${this.isMarried}, City: ${this.city}`;
-
     return details;
   },
 };
-
 console.log(`Type of person is ${typeof person}`);
 
 console.log(`------- Accessing object properties----------`);
@@ -47,39 +35,26 @@ console.log(`------- Accessing object properties----------`);
 // Dot Notation .
 
 const personName = person.name;
-
 const personHeight = person["height"];
-
 console.log(`Person name is : ${personName}`);
-
 console.log(`Person City is : ${person.city}`);
-
 console.log(`Person Height is : ${person["height"]}`);
 
 console.log(`------- Updating object properties----------`);
-
 person.city = "Mumbai";
-
 person.isMarried = false;
-
 console.log(`Person City is : ${person.city}`);
-
 console.log(`Person married status is : ${person.isMarried}`);
 
 console.log(`------- Adding object properties----------`);
-
 person.gender = "Male";
-
 person.state = "MH";
 
 console.log(`------- Deleting object properties----------`);
-
 delete person.height;
 
 console.log(`------- Invoking or calling object method----------`);
-
 person.walk("5KM");
-
 person.details();
 
 const details = person.getDetails();
