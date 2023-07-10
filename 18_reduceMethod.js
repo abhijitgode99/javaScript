@@ -12,7 +12,7 @@ console.log(`find all the number multiple of 5 and sum it(filter and reduce Meth
 const newArray = array.filter( (element) => {
     if(element%5==0){
         return element;
-    }
+    } 
 } );
 const sum1= newArray.reduce((sumcount,value)=>{
     return sumcount + value;

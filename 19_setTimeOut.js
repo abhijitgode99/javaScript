@@ -17,4 +17,4 @@ setTimeout( function(){
 });
 
 
-const per=[...person]
+// const per=[...person]
