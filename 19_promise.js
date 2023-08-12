@@ -6,7 +6,7 @@ let promise = new Promise( function(resolve, reject){
     if (isNotesPrepared) {
         resolve("Guys, please take this notes");
     }else{
-        reject("Sorry, I didn't get time...."); 
+        reject("Sorry, I didn't get time..s.."); 
     }
 } );
 promise.then(function resolve(success){

@@ -75,13 +75,13 @@ console.log(arrayOfRollNumbers);
 
 // splice for insertion by replacing elements
 
-var arrayOfRollNumbers = [67, 56, 78, 99, 80];
+var arrayOfRollNumbers = [67, 56, 78, 42, 80];
 
 console.log(arrayOfRollNumbers);
 
-arrayOfRollNumbers.splice(1, 1, 99, 88, 77, 66);
+arrayOfRollNumbers.splice(3, 1, 99, 88, 77, 66);
 
-console.log(arrayOfRollNumbers);
+console.log('one',arrayOfRollNumbers);
 
 // splice for insertion by replacing elements
 
@@ -90,3 +90,4 @@ var arrayOfRollNumbers = [67, 56, 78, 99, 80];
 console.log(arrayOfRollNumbers);
 
 arrayOfRollNumbers.splice(2, 2, 111, 22, 333);
+console.log('two',arrayOfRollNumbers);
