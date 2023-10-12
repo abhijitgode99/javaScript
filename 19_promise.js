@@ -1,5 +1,3 @@
-
-
 let isNotesPrepared = false;
 let promise = new Promise( function(resolve, reject){
 // I got a time at 4.30
