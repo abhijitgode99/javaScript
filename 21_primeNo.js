@@ -1,6 +1,9 @@
-// 11
-// 2
+// // 11
+// // 2
 
+
+
+// Ckheck number is primt or not my logic
 function primeNum(num) {
     let isPrime = true;
     for (let index = 2; index < num; index++) {
@@ -22,6 +25,8 @@ function primeNum(num) {
   primeNum(5);
   primeNum(9);
   primeNum(11);
+  console.log(` `);
+console.log(``);
 
  function primeornot(no){
   let count=1;
@@ -46,3 +51,22 @@ function primeNum(num) {
 }
 primeornot(25)
 primeornot(23)
+console.log(` `);
+console.log(``);
+
+// print the series of prime number
+console.log(`print the series of prime number`);
+function primeornot(no) {
+  for (let i = 2; i <= no; i++) {
+    let isPrime = true;
+    for (let j = 2; j < i; j++) {
+      if (i % j == 0) {
+        isPrime = false;
+      }
+    }
+    if (isPrime) {
+      console.log(`Prime number: ${i}`);
+    }
+  }
+}
+primeornot(5);
